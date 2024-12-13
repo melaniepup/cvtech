@@ -1,0 +1,7 @@
+table.css, td {
+     background-color: rgb(250, 250, 250);
+     margin: 12px 12px 12px 12px;
+     padding: 12px 12px 12px 12px;
+     border: 1px rgb(0, 0, 0) solid ;
+     border-collapse: collapse;
+     }

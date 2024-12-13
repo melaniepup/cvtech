@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Form</title>
+</head>
+<body>
+    <form style="width: 300px;" >
+        <fieldset>
+        <legend>Form</legend>
+            <label for="name">Name:</label>
+                <input tabindex="1" type="text" id="name" name="name"><br><br>
+            <label for="school">School:</label>
+                <select name="school" id="school">
+                    <option value="Yukon">Yukon</option>
+                    <option value="Mustang">Mustang</option>
+                    <option value="Piedmont">Piedmont</option>
+                    <option value="Bethany">Bethany</option>
+                    <option value="El Reno">El Reno</option>
+                    <option value="Other">Other</option>
+                </select><br><br>
+                <input tabindex="2" type="radio" id="cars" name="car_owned" value="HTML">
+                    <label for="cars">Ford</label>
+                <input type="radio" id="cars" name="car_owned" value="HTML">
+                    <label for="cars">Chevy</label>
+                <input tabindex="3" type="radio" id="cars" name="car_owned" value="HTML">
+                    <label for="cars">Honda</label><br><br>
+                <label for="goals">Goals</label><br>
+                    <textarea id="goals" name="goals" rows="5" cols="50"></textarea><br><br>
+        </fieldset>
+        <button tabindex="4">
+            <a href="submitted.html">Submit</a>
+        </button>
+        <input tabindex="5" type="reset">
+    </form>
+</body>
+</html>
